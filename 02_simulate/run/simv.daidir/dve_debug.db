@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="ISO-8859-1" ?>
+<opml version="1.0">
+	<head>
+		<title>VCS dump file for DVE debugging</title>
+		<vcsVersion>D-2010.06-SP1</vcsVersion>
+		<dateCreated>Tue Nov 24 22:30:07 2015</dateCreated>
+	</head>
+	<body>
+		<!-- VCS compile options -->
+		<vcsCompileOptions text="/home/quanghan/icdesign/synopsys_src/VCS_D-2010.06-SP1/linux/bin/vcs1 -Mcc=gcc -Mcplusplus=g++ -Masflags= -Mcfl= -pipe -O -I/home/quanghan/icdesign/synopsys_src/VCS_D-2010.06-SP1/include  -Mldflags=-melf_i386  -Mout=simv -Mamsrun= -Mvcsaceobjs= -Mcmodrun= -Mobjects= /home/quanghan/icdesign/synopsys_src/VCS_D-2010.06-SP1/linux/lib/libvirsim.so /home/quanghan/icdesign/synopsys_src/VCS_D-2010.06-SP1/linux/lib/librterrorinf.so /home/quanghan/icdesign/synopsys_src/VCS_D-2010.06-SP1/linux/lib/libsnpsmalloc.so  -Msaverestoreobj=/home/quanghan/icdesign/synopsys_src/VCS_D-2010.06-SP1/linux/lib/vcs_save_restore_new.o -Mcrt0= -Mcrtn= -Mcsrc= -Msyslibs=/home/quanghan/icdesign/synopsys_src/VCS_D-2010.06-SP1/linux/lib/ctype-stubs_32.a -ldl -lm  +v2k -Xcbug=0x1 -debug_all -cm_xmldb +cli+4 +vcsd +itf+/home/quanghan/icdesign/synopsys_src/VCS_D-2010.06-SP1/linux/lib/vcsd.tab +vpi -line -debug=4 +memcbk +vpi -gen_obj ./adder24.v ./adder8.v ./add_fp_clk.v ./add.v ./arrange.v ./cla_12bit.v ./control_floating_point.v ./fft_core_control.v ./fft_core.v ./floating_point_adder.v ./floating_point_multiple.v ./mem_input.v ./mem_int.v ./mem_w_image.v ./mem_w_real.v ./mul26.v ./mul_fp_clk.v ./network_control.v ./para_input.v ./prepare.v ./top_fft.v ./t_top_fft.v "/>
+		<!-- File list for the whole design -->
+		<fileList>
+			<file fid="12" path="/home/quanghan/Work/ThanhDat/FFT_Final/02_simulate/run/mem_int.v" />
+			<file fid="15" path="/home/quanghan/Work/ThanhDat/FFT_Final/02_simulate/run/mul26.v" />
+			<file fid="8" path="/home/quanghan/Work/ThanhDat/FFT_Final/02_simulate/run/fft_core.v" />
+			<file fid="3" path="/home/quanghan/Work/ThanhDat/FFT_Final/02_simulate/run/add.v" />
+			<file fid="6" path="/home/quanghan/Work/ThanhDat/FFT_Final/02_simulate/run/control_floating_point.v" />
+			<file fid="11" path="/home/quanghan/Work/ThanhDat/FFT_Final/02_simulate/run/mem_input.v" />
+			<file fid="13" path="/home/quanghan/Work/ThanhDat/FFT_Final/02_simulate/run/mem_w_image.v" />
+			<file fid="16" path="/home/quanghan/Work/ThanhDat/FFT_Final/02_simulate/run/mul_fp_clk.v" />
+			<file fid="10" path="/home/quanghan/Work/ThanhDat/FFT_Final/02_simulate/run/floating_point_multiple.v" />
+			<file fid="18" path="/home/quanghan/Work/ThanhDat/FFT_Final/02_simulate/run/para_input.v" />
+			<file fid="4" path="/home/quanghan/Work/ThanhDat/FFT_Final/02_simulate/run/arrange.v" />
+			<file fid="0" path="/home/quanghan/Work/ThanhDat/FFT_Final/02_simulate/run/adder24.v" />
+			<file fid="5" path="/home/quanghan/Work/ThanhDat/FFT_Final/02_simulate/run/cla_12bit.v" />
+			<file fid="7" path="/home/quanghan/Work/ThanhDat/FFT_Final/02_simulate/run/fft_core_control.v" />
+			<file fid="1" path="/home/quanghan/Work/ThanhDat/FFT_Final/02_simulate/run/adder8.v" />
+			<file fid="2" path="/home/quanghan/Work/ThanhDat/FFT_Final/02_simulate/run/add_fp_clk.v" />
+			<file fid="20" path="/home/quanghan/Work/ThanhDat/FFT_Final/02_simulate/run/top_fft.v" />
+			<file fid="19" path="/home/quanghan/Work/ThanhDat/FFT_Final/02_simulate/run/prepare.v" />
+			<file fid="14" path="/home/quanghan/Work/ThanhDat/FFT_Final/02_simulate/run/mem_w_real.v" />
+			<file fid="9" path="/home/quanghan/Work/ThanhDat/FFT_Final/02_simulate/run/floating_point_adder.v" />
+			<file fid="17" path="/home/quanghan/Work/ThanhDat/FFT_Final/02_simulate/run/network_control.v" />
+			<file fid="21" path="/home/quanghan/Work/ThanhDat/FFT_Final/02_simulate/run/t_top_fft.v" />
+		</fileList>
+		<!-- Include file list for the whole design -->
+		<includeFileList>
+		</includeFileList>
+		<!-- Encrypted codes list for the whole design -->
+		<encryptedCodesList>
+		</encryptedCodesList>
+		<!-- Inactive codes list for the whole design -->
+		<inactiveCodesList>
+		</inactiveCodesList>
+		<!-- Compile options UUM based -->
+		<langKeywords>
+			<v2kFiles fid="0-21" />
+		</langKeywords>
+		<!--  Case insensitive file list -->
+		<caseInsensitiveFiles fid="" />
+		<!-- Macro definition list for the whole design --> 
+		<macroDefinitionList>
+		</macroDefinitionList>
+		<!-- Macro value list for the whole design --> 
+		<macroValueList>
+		</macroValueList>
+	</body>
+</opml>

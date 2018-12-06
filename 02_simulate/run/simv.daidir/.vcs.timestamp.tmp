@@ -1,0 +1,126 @@
+0 
+51
++cli+4
++itf+/home/quanghan/icdesign/synopsys_src/VCS_D-2010.06-SP1/linux/lib/vcsd.tab
++memcbk
++v2k
++vcsd
++vpi
++vpi
+-Mamsrun=
+-Masflags=
+-Mcc=gcc
+-Mcfl= -pipe -O -I/home/quanghan/icdesign/synopsys_src/VCS_D-2010.06-SP1/include
+-Mcmodrun=
+-Mcplusplus=g++
+-Mcrt0=
+-Mcrtn=
+-Mcsrc=
+-Mldflags=-melf_i386
+-Mobjects= /home/quanghan/icdesign/synopsys_src/VCS_D-2010.06-SP1/linux/lib/libvirsim.so /home/quanghan/icdesign/synopsys_src/VCS_D-2010.06-SP1/linux/lib/librterrorinf.so /home/quanghan/icdesign/synopsys_src/VCS_D-2010.06-SP1/linux/lib/libsnpsmalloc.so
+-Mout=simv
+-Msaverestoreobj=/home/quanghan/icdesign/synopsys_src/VCS_D-2010.06-SP1/linux/lib/vcs_save_restore_new.o
+-Msyslibs=/home/quanghan/icdesign/synopsys_src/VCS_D-2010.06-SP1/linux/lib/ctype-stubs_32.a -ldl -lm
+-Mvcsaceobjs=
+-Xcbug=0x1
+-cm_xmldb
+-debug=4
+-debug_all
+-gen_obj
+-line
+./add.v
+./add_fp_clk.v
+./adder24.v
+./adder8.v
+./arrange.v
+./cla_12bit.v
+./control_floating_point.v
+./fft_core.v
+./fft_core_control.v
+./floating_point_adder.v
+./floating_point_multiple.v
+./mem_input.v
+./mem_int.v
+./mem_w_image.v
+./mem_w_real.v
+./mul26.v
+./mul_fp_clk.v
+./network_control.v
+./para_input.v
+./prepare.v
+./t_top_fft.v
+./top_fft.v
+/home/quanghan/icdesign/synopsys_src/VCS_D-2010.06-SP1/linux/bin/vcs1
+42
+XMODIFIERS=@im=none
+XDG_SESSION_COOKIE=bf0cfad4b98379940290b9710000000f-1448375203.149885-626958717
+XAUTHORITY=/var/run/gdm/auth-for-quanghan-7IIF0c/database
+WINDOWPATH=1
+VMR_MODE_FLAG=32
+VIRSIMHOME=/home/quanghan/icdesign/synopsys_src/VCS_D-2010.06-SP1/gui/virsim
+VCS_MX_HOME_INTERNAL=1
+VCS_HOME=/home/quanghan/icdesign/synopsys_src/VCS_D-2010.06-SP1/
+VCS_ARG_ADDED_FOR_TMP=1
+VCS_ARCH_OVERRIDE=linux
+VCS_ARCH=linux
+VCS_AMD_PURE32=1
+USERNAME=quanghan
+UNAME=/bin/uname
+TOOL_HOME=/home/quanghan/icdesign/synopsys_src/VCS_D-2010.06-SP1/linux
+SYNOPSYS=/home/quanghan/icdesign/synopsys_src
+SSH_AUTH_SOCK=/tmp/keyring-3h1Mkg/ssh
+SSH_ASKPASS=/usr/libexec/openssh/gnome-ssh-askpass
+SNPSLMD_LICENSE_FILE=27000@localhost.localdomain:/home/quanghan/icdesign/synopsys_src/VCS_D-2010.06-SP1//flexlm//license.dat
+SESSION_MANAGER=local/unix:@/tmp/.ICE-unix/1495,unix/unix:/tmp/.ICE-unix/1495
+SCRNAME=vcs
+SCRIPT_NAME=vcs
+SCL=/home/quanghan/icdesign/synopsys_src/license
+QT_IM_MODULE=xim
+OVA_UUM=0
+ORBIT_SOCKETDIR=/tmp/orbit-quanghan
+LESSOPEN=|/usr/bin/lesspipe.sh %s
+IMSETTINGS_MODULE=none
+IMSETTINGS_INTEGRATE_DESKTOP=yes
+HOSTNAME=localhost.localdomain
+HISTCONTROL=ignoredups
+G_BROKEN_FILENAMES=1
+GTK_RC_FILES=/etc/gtk/gtkrc:/home/quanghan/.gtkrc-1.2-gnome2
+GNOME_KEYRING_PID=1488
+GNOME_KEYRING_CONTROL=/tmp/keyring-3h1Mkg
+GNOME_DESKTOP_SESSION_ID=this-is-deprecated
+GDM_LANG=en_US.utf8
+GDM_KEYBOARD_LAYOUT=us
+GDMSESSION=gnome
+DESKTOP_SESSION=gnome
+DBUS_SESSION_BUS_ADDRESS=unix:abstract=/tmp/dbus-cwfgondMGz,guid=5eb387aad161c736a02604cc00000018
+COLORTERM=gnome-terminal
+0
+23
+1448379006 ./t_top_fft.v
+1448379006 ./top_fft.v
+1448379006 ./prepare.v
+1448379006 ./para_input.v
+1448379006 ./network_control.v
+1448379006 ./mul_fp_clk.v
+1448379006 ./mul26.v
+1448379006 ./mem_w_real.v
+1448379006 ./mem_w_image.v
+1448379006 ./mem_int.v
+1448379006 ./mem_input.v
+1448379006 ./floating_point_multiple.v
+1448379006 ./floating_point_adder.v
+1448379006 ./fft_core.v
+1448379006 ./fft_core_control.v
+1448379006 ./control_floating_point.v
+1448379006 ./cla_12bit.v
+1448379006 ./arrange.v
+1448379006 ./add.v
+1448379006 ./add_fp_clk.v
+1448379006 ./adder8.v
+1448379006 ./adder24.v
+1362213546 /home/quanghan/icdesign/synopsys_src/VCS_D-2010.06-SP1/linux/lib/vcsd.tab
+4
+0 
+1362213536 /home/quanghan/icdesign/synopsys_src/VCS_D-2010.06-SP1/linux/lib/libvirsim.so
+1362213560 /home/quanghan/icdesign/synopsys_src/VCS_D-2010.06-SP1/linux/lib/librterrorinf.so
+1362213548 /home/quanghan/icdesign/synopsys_src/VCS_D-2010.06-SP1/linux/lib/libsnpsmalloc.so
